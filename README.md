@@ -14,14 +14,20 @@ This is an interactive time series forecasting application built with Gradio. It
 
 1 - Create and activate a virtual environment:
 
-python -m venv venv source venv/bin/activate # On macOS/Linux venv\Scripts\activate # On Windows
+    python -m venv venv 
+    source venv/bin/activate 
+    
+    venv\Scripts\activate # On Windows
+
 
 2 - Install dependencies:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
+
 
 3 - Launch the app:
 
-python app.py
+    python app.py
+
 
 4 - Open your browser at: http://127.0.0.1:7860
