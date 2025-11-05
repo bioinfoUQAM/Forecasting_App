@@ -19,4 +19,4 @@ EXPOSE 7860
 ENV CUDA_LAUNCH_BLOCKING=1
 
 # Default command to run app (adjust script name if different)
-CMD ["python", "app.py"]
+CMD ["python", "time_series_forecasting_app_query_plot.py"]
