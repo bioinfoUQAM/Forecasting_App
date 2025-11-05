@@ -1,0 +1,21 @@
+# Core libraries
+numpy
+pandas
+scikit-learn
+matplotlib
+Pillow
+
+# Deep learning
+torch
+torchvision
+torchaudio
+
+# Time series forecasting
+darts
+statsmodels
+
+# Web UI
+gradio
+
+# Utilities
+logging
