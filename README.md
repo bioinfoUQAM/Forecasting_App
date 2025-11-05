@@ -25,9 +25,20 @@ This is an interactive time series forecasting application built with Gradio. It
     pip install -r requirements.txt
 
 
+
 3 - Launch the app:
 
     python app.py
 
 
 4 - Open your browser at: http://127.0.0.1:7860
+
+
+---------------------------------------------------------
+To use it in Docker:
+
+# Build the image (run in repo root)
+docker build -t forecasting-app .
+
+# Run container (mapping port 7860 on host to port 7860 in container)
+docker run -p 7860:7860 forecasting-app
